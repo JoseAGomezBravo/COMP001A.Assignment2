@@ -1,8 +1,10 @@
+/*Sets up how the font of the text looks throughout the page*/
 body {
     font-family: Arial, sans-serif;
 
 }
 
+/*Makes the header bigger, changes both background color to black and text color to white, aligns the text to the center, and makes the text bold.*/
 h1 {
     background-color: black;
 
@@ -19,6 +21,7 @@ h1 {
     
 }
 
+/*This sets us up how the sections look thoughout the page*/
 .content {
     font-size: 150%;
 
@@ -26,12 +29,24 @@ h1 {
 
 }
 
+/* This makes the smaller sections which contain the projects bigger and bold compared to normal text*/
 .scontent {
     font-size: 120%;
 
     font-weight: bold;
 }
 
+/* Sets up the skill list*/
 ul.a {
     list-style-type: circle;
+}
+
+/* Changes the appearance of the footer, by changing background color, text color, and aligning the text to the center.*/
+footer {
+    background-color: black;
+
+    color: white;
+
+    text-align: center;
+
 }
