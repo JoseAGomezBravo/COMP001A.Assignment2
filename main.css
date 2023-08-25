@@ -1,5 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+
+}
+
 h1 {
     background-color: black;
+
     text-align: center;
+
+    color: white;
+
+    font-size: 200%;
+
+    font-weight: bolder;
+
+    padding: auto;
+
     
+}
+
+.content {
+    font-size: 150%;
+
+    font-weight: bold;
+
+}
+
+.scontent {
+    font-size: 120%;
+
+    font-weight: bold;
+}
+
+ul.a {
+    list-style-type: circle;
 }
